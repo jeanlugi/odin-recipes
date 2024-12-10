@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.recetaodin {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(241, 55, 55);
+  padding: 20px;
+  border-radius: 90px;
+}
+div {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.lista {
+  width: 50%;
+  border: 10px double rgb(255, 255, 255);
+  list-style: none;
+  display: inline-flex;
+  font-size: 30px;
+  justify-content: center;
+  margin: 0;
+  margin-left: 25%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.lista a {
+  background-color: rgb(241, 55, 55);
+  padding: 20px 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+.imagen {
+  max-height: 500px;
+  width: 600px;
+  border: 5px solid;
+  border-color: rgb(0, 247, 255) rgb(255, 0, 255) rgb(0, 255, 170)
+    rgb(72, 255, 0);
+  border-radius: 100px;
+  margin: 40px;
+  /* margin-left: 360px; */
+}
+.subtitulos {
+  margin: 30px 30px;
+  border: 2px;
+  padding: 5px 10px;
+  background-color: rgba(172, 255, 47, 0.322);
+  width: 300px;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 40px;
+}
+p {
+  background-color: rgba(119, 197, 2, 0.459);
+  text-align: justify;
+}
+.ingredientes {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 450px;
+  padding: 15px;
+}
+.ingredienteslista li {
+  background-color: rgba(148, 247, 0, 0.658);
+  border: 3px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  width: 350px;
+}
+ul {
+  margin: 10px;
+  margin-left: 80px;
+  border: 6px double;
+  width: 400px;
+  border-color: rgb(0, 247, 255) rgb(255, 0, 255) rgb(0, 255, 170)
+    rgb(72, 255, 0);
+  border-radius: 25px;
+  padding: 10px;
+}
+.parrafos {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border: 3px;
+  border-radius: 30px;
+  padding: 15px;
+  width: 1000px;
+}
+.cocinar {
+  padding: 10px;
+  margin: 30px 35px;
+  font-family: cursive;
+}
+ol {
+  margin: 10px;
+  border: 6px double;
+  width: 950px;
+  border-color: rgb(0, 247, 255) rgb(255, 0, 255) rgb(0, 255, 170)
+    rgb(72, 255, 0);
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 150px;
+}
+.pasos li {
+  background-color: rgba(148, 247, 0, 0.658);
+  border: 3px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: 900px;
+  list-style-position: inside;
+}
+.links {
+  border: none;
+  list-style: none;
+
+  li {
+    margin-bottom: 50px;
+  }
+}
+
+ol li::marker {
+  content: "💨";
+}
